@@ -1,2 +1,2 @@
-FROM tomcat:8.0-alpine
-COPY /target/servlet-sample-1.0.0.war /usr/local/tomcat/webapps/myapp.war
+FROM tomcat:7.0
+COPY /target/LoginApplication-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/myapp.war
